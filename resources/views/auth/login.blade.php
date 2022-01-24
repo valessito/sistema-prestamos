@@ -2,7 +2,7 @@
 <html lang="{{ app()->getLocale() }}">
 <head>
     <meta charset="UTF-8">
-    <title>{{config("app.name")}}</title>
+    <title>Sistema-Préstamos</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta name="description" content="Admin, Dashboard, Bootstrap" />
@@ -16,14 +16,9 @@
     <link rel="stylesheet" href="{{ asset('assets/css/misc-pages.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900,300">
 </head>
-<body class="simple-page">
+<body class="simple-page" id="fondo-inicio">
 <div class="simple-page-wrap">
     <div class="simple-page-form animated flipInY" id="login-form">
-{{--        <div class="simple-page-logo animated swing">--}}
-{{--            <a href="{{config("app.url")}}">--}}
-{{--                <span><img src="{{asset('assets/images/zeus-logo.png')}}" alt=""></span>--}}
-{{--            </a>--}}
-{{--        </div><!-- logo -->--}}
         <h4 class="form-title m-b-xl text-center">Iniciar Sesion</h4>
         <div class="panel-body">
             <form class="form-horizontal" method="POST" action="{{ route('login') }}">
@@ -65,7 +60,7 @@
                 <div class="form-group">
                     <div class="col-md-12">
                         <button type="submit" class="btn btn-primary">
-                            Login
+                            Iniciar Sesión
                         </button>
 
                     </div>
@@ -92,7 +87,7 @@
     </div><!-- #login-form -->
 
     <div class="simple-page-footer">
-        <p><a href="{{ route('password.request') }}">¿Olvidaste tu contraseña?</a></p>
+        <p><a href="https://wa.me/+51928510511" target="_blanck">¿Olvidaste tu contraseña?</a></p>
     </div><!-- .simple-page-footer -->
 
 

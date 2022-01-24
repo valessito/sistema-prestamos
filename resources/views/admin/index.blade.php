@@ -13,10 +13,10 @@
                                 <tbody>
                                 <tr>
                                     <th>ID</th>
-                                    <th>Usuario</th>
+                                    <th>Nombre de Usuario</th>
                                     <th>Nombre</th>
-                                    <th>Nivel</th>
-                                    <th>Cartera</th>
+                                    <th>Rango</th>
+                                    <th>Sucursal</th>
                                     <th>Supervisor</th>
                                     <th></th>
                                 </tr>
@@ -51,7 +51,7 @@
                                                       class="pull-left px-1">
                                                     {{ csrf_field() }}
                                                     {{ method_field('PUT') }}
-                                                    <button type="submit" class="btn btn-inverse btn-xs">Session
+                                                    <button type="submit" class="btn btn-inverse btn-xs">Sesión
                                                     </button>
                                                 </form>
                                             </td>

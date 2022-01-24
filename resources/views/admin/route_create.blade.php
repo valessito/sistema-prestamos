@@ -9,7 +9,7 @@
                     <div class="col-md-12 col-lg-8 offset-lg-2">
                         <div class="widget">
                             <header class="widget-header">
-                                <h4 class="widget-title">Agregar ruta</h4>
+                                <h4 class="widget-title">Agregar Sucursal</h4>
                             </header><!-- .widget-header -->
                             <hr class="widget-separator">
                             <div class="widget-body">
@@ -20,11 +20,11 @@
                                         <input type="text" name="name"  class="form-control" id="name" required>
                                     </div>
                                     <div class="form-group">
-                                        <label for="address">Ciudad:</label>
+                                        <label for="address">Dirección:</label>
                                         <input type="text" name="address"  class="form-control" id="address" required>
                                     </div>
                                     <div class="form-group">
-                                        <label for="country">Pais:</label>
+                                        <label for="country">Ciudad:</label>
                                         <select name="country"  class="form-control" id="country">
                                             @foreach($countries as $country)
                                                 <option value="{{$country->id}}">{{$country->name}}</option>

@@ -32,7 +32,7 @@
                                         </select>
                                     </div>
                                     <div class="form-group">
-                                        <label for="country">Cartera:</label>
+                                        <label for="country">Sucursal:</label>
                                         <select name="id_wallet"  class="form-control" id="country">
                                             @foreach($wallets as $agent)
                                                 @if(!$agent->ocuped)

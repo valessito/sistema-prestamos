@@ -81,7 +81,7 @@ Optimiza el funcionamiento de las fechas estableciendo tu zona horaria [Ver zona
 __config/app.php__
 ```php
     ....
-    'timezone' => 'Europe/Madrid',
+    'timezone' => 'America/Lima',
     ....
 ```
 
